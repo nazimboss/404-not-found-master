@@ -12,11 +12,10 @@ nav{
     text-align: right;
     margin-top: 15px;
 }
-/* main{
-    position: relative;
-} */
+
+/* added main styels here */
+
 .container{
-    /* position: relative; */
     width: 85%;
     margin-left: 5%;
     display: flex;
@@ -47,6 +46,9 @@ nav{
     border-radius: 5px;
     color: #fff;
 }
+
+/* added footer styles here */
+
 span{
     font-weight: bold;
 }
@@ -58,6 +60,9 @@ footer{
     color: rgb(182, 179, 179);
     font-weight: 100;
 }
+
+/* added media queary styles */
+
 @media screen and (max-width: 576px){
     .container{
         flex-direction: column;
